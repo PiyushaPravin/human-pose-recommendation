@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+            p{
+            margin-right: 500px;
+            }
+            .button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+            </style>
+    </head>
+    <body background = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTmsmvdf38ywN4PTE717pSvaA7jUI3DJ8Qow&usqp=CAU">
+        <br>
+        <h1>B.Tech Project - Intelligent Pose Recommendation </h1><br>
+        <p><i>Human pose understanding has big scope with respect to increasing the aesthetic of photographs and Artificial Intelligence based action triggers. Sophisticated systems to identify nuance of human poses open up opportunities in Camera differentiation. In an era where almost everyone owns a mobile phone and most of the pictures taken end up in social media, posing your subject provides the opportunity to tell a different story with every frame. At the same time, it helps improve the appearance of the subject in the photo.</i></p>
+        <p><i>With rapid development of technology and easy access to mobile phones and other smart devices, there has been an increase in the number of social media platforms.
+            Since the pandemic, globally a hike in the number of social media users is observed. It has become a virtual platform for people to express themselves.To gain more attention and audience, people want to have the best photos and project themselves in a better way. However, it is hard to guarantee the quality of such uploaded images because of poor image acquisition devices and lack of professionalism in the pictures as everyone is not a professional photographer. In order to tackle these problems, this research work is novel in nature as such this study proposes an intelligent photo pose recommendation method to recommend professional photo pose according to the background of the input image. 
+            </i></p>
+            <br>
+            <p><i>Given a query image with only background, the global features are extracted from it using VGG 16 and ResNet 101. Secondly, the local features are extracted using color histograms. These features are concatenated to give a final feature vector. The feature vector then is used to get the most similar image. Open pose is used to extract pose from the most similar image and is superimposed on the query image to give pose recommendation</i></p>
+        <br>
+            <h3>Group Members</h3>
+        <ul>
+            <li>Sakshi Patil - 111807032</li>
+            <li>Piyusha Taware - 111807039</li>
+            <li>Sonali Sargar - 111807053</li>
+        </ul>
+        <h4> Under the guidance of Dr. Abhishek Bhatt and Samsung PRISM mentor Mr. Mayank Anchlia</h4><br>
+        
+    </body>
+</html>
